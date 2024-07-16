@@ -1,0 +1,5 @@
+@include('includes.head')
+@yield('body_tag')
+@include('includes.header_primary')
+    @yield('content')
+@include('includes.footer')
